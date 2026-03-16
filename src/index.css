@@ -1,0 +1,21 @@
+:root[data-darkTheme="false"] {
+    --text: black;
+    --background: white;
+    --banner: #6D93CC;
+    --boxshadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+:root[data-darkTheme="true"] {
+    --text: white;
+    --background: #1a1a2e;
+    --banner: #16213e;
+    --boxshadow: 0px 0px 8px rgba(255, 255, 255, 0.15);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}

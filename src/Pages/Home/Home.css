@@ -1,0 +1,97 @@
+.home {
+    width: 100%;
+}
+.hero {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color:var(--banner);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.search-box {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    width: 700px;
+    gap: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+ .search-box input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: black;
+}
+
+.search-box input{
+    font-size: 15px;
+    font-style: normal;
+    width: 550px;
+}
+
+.searchbtn {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: #507cb8;
+    color: white;
+    cursor: pointer;
+} 
+
+.cardparent {
+    min-height: 500px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: var(--background);
+}
+
+.featured{
+    text-align: center;
+    font-size: 30px;
+    color: var(--text);
+    background-color: var(--background);
+}
+.viewall-btn-div{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: var(--background);
+}
+.view-all{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: #507cb8;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.crdsec {
+    background-color: var(--background);
+    transition: background-color 0.3s;
+}
+
+
