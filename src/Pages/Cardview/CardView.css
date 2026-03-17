@@ -1,4 +1,4 @@
-/* CardView.css */
+
 .simple-card-view {
     display: flex;
     flex-direction: column;
@@ -88,6 +88,7 @@
     border: 1px solid #dee2e6;
     text-align: center;
     height: fit-content;
+    background-color: var(--background);
 }
 
 .price {
@@ -111,20 +112,5 @@
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    transition: background 0.3s;
 }
 
-.book-btn:hover {
-    background: #3a5c8c;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .venue-details-container {
-        flex-direction: column;
-    }
-    
-    .venue-action-box {
-        width: 100%;
-    }
-}

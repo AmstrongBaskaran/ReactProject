@@ -17,7 +17,7 @@ function CardView() {
                 </div>
                 <div className="venue-details-container">
                     <div className="venue-info">
-                        <h1>Arun & Priya's Wedding</h1>
+                        <h1 className='headline'>Arun & Priya's Wedding</h1>
                         <p className="location">Date: 15 / 08 / 2026</p>
 
                         <div className="description">

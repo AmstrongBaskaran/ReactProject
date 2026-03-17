@@ -5,6 +5,7 @@ import Signup from './Pages/Signup/Signup'
 import EventCreate from './Pages/EventCreate/EventCreate'
 import BrowseVenues from './Pages/BrowseVenues/BrowseVenues'
 import CardView from './Pages/Cardview/CardView'
+import Dashboard from './Pages/Dashboard/Dashboard'
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       {/* <Home /> */}
       {/* <Login /> */}
       {/* <Signup /> */}
-      <EventCreate />
-      {/*<BrowseVenues /> */}
-      {/* <CardView /> */}
+      {/* <EventCreate /> */}
+      {/* <BrowseVenues /> */}
+      {/* <CardView/> */}
+      <Dashboard/>
     </div>
   )
 }
