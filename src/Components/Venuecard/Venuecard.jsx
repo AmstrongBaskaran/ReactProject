@@ -1,5 +1,6 @@
 import React from 'react'
 import './Venuecard.css'
+import { Link } from 'react-router'
 
 function Venuecard() {
   return (
@@ -14,7 +15,7 @@ function Venuecard() {
           <span className="guests">300 guests</span>
           <span className="price">5,000/day</span>
         </div>
-        <button className="view-btn">View Details</button>
+       <Link to="/CardView"><button className="view-btn">View Details</button></Link>
       </div>
     </div>
   )

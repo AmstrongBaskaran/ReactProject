@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router";
 
 
 function Navbar() {
@@ -18,8 +19,8 @@ function Navbar() {
       </div>
       <div className="navlist">
         <ul>
-          <li>Home</li>
-          <li>Venue</li>
+          <Link to="/" style={{textDecoration: "none"}}><li>Home</li></Link>
+          <Link to="/BrowseVenues" style={{textDecoration: "none"}} ><li>Venue</li></Link>
         </ul>
       </div>
       <div className="btns">
@@ -36,8 +37,8 @@ function Navbar() {
             />
           </svg>
         </p>
-        <button>Login</button>
-        <button>Signup</button>
+        <Link to="/Login"><button>Login</button></Link>
+        <Link to="/Signup"><button>Signup</button></Link>
       </div>
     </div>
   );

@@ -1,23 +1,10 @@
 import React from 'react'
-import Home from './Pages/Home/Home'
-import Login from './Pages/Login/Login'
-import Signup from './Pages/Signup/Signup'
-import EventCreate from './Pages/EventCreate/EventCreate'
-import BrowseVenues from './Pages/BrowseVenues/BrowseVenues'
-import CardView from './Pages/Cardview/CardView'
-import Dashboard from './Pages/Dashboard/Dashboard'
+import { RouterProvider } from 'react-router-dom' 
+import router from './routers/Router'
 
 function App() {
   return (
-    <div>
-      {/* <Home /> */}
-      {/* <Login /> */}
-      {/* <Signup /> */}
-      {/* <EventCreate /> */}
-      {/* <BrowseVenues /> */}
-      {/* <CardView/> */}
-      <Dashboard/>
-    </div>
+   <RouterProvider router={router}/>
   )
 }
 

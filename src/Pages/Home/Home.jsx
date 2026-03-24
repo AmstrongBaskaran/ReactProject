@@ -4,6 +4,7 @@ import Venuecard from "../../Components/Venuecard/Venuecard";
 import Eventcategories from "../../Components/Eventcategories/Eventcategories";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -28,7 +29,7 @@ function Home() {
         <Venuecard />
       </div>
       <div className="viewall-btn-div">
-        <button className="view-all">View All Venues</button>
+        <Link to="/BrowseVenues"><button className="view-all">View All Venues</button></Link>
       </div>
       </div>
       <Eventcategories />

@@ -31,10 +31,10 @@ function CardView() {
                     </div>
                     <div className="venue-action-box">
                         <div className="status-box">
-                            <h3>Status</h3>
-                            <p style={{ color: 'green', fontWeight: 'bold', marginTop: '10px' }}>Upcoming Event</p>
+                            {/* <h3>Status</h3> */}
+                            {/* <p style={{ color: 'green', fontWeight: 'bold', marginTop: '10px' }}>Upcoming Event</p> */}
                         </div>
-                        <button className="book-btn" style={{ marginTop: '20px' }}>Edit Event</button>
+                        <button className="book-btn" style={{ marginTop: '20px' ,fontWeight:'bold'}}>Book Now</button>
                     </div>
                 </div>
             </div>

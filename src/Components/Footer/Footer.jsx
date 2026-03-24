@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router'
 
 function Footer() {
   return (
@@ -14,7 +15,8 @@ function Footer() {
         <h3>Quick Links</h3>
         <p>Home</p>
         <p>Venues</p>
-        <p>Create Event</p>
+        <Link to="/EventCreate" style={{textDecoration:"none", color:"White"}}><p>Create Event</p></Link>
+         <Link to="/Dashboard" style={{textDecoration:"none", color:"White"}}><p>DashBoard</p></Link>
       </div>
 
       <div className="footer-section">

@@ -4,8 +4,8 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 
 function EventCreate() {
-    return (
-        <div className="eventcreate-container">
+  return (
+    <div className="eventcreate-container">
             <Navbar />
             <div className="eventcreate-page">
                 <div className="eventcreate-box">
@@ -73,7 +73,7 @@ function EventCreate() {
         </div>
             <Footer />
         </div>
-    )
+  )
 }
 
 export default EventCreate
