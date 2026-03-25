@@ -71,16 +71,3 @@
 .login-box button[type="submit"]:hover {
   background: #4a6d9a;
 }
-
-.login-box .signup-link {
-  text-align: center;
-  margin-top: 16px;
-  font-size: 14px;
-  color: #666;
-}
-
-.login-box .signup-link span {
-  color: #5f84b3;
-  cursor: pointer;
-  font-weight: 600;
-}
