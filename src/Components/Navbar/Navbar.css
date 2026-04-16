@@ -74,4 +74,10 @@
 .btns p svg{
   color: var(--text); 
 }
+.logout-btn{
+  background-color: #e74c3c;
+}
+.logout-btn:hover{
+  background-color: #c0392b;
+}
 

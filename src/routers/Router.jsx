@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
 import Home from "../Pages/Home/Home";
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/CardView",
+    path: "/CardView/:id",
     element: <CardView />,
   },
   {
